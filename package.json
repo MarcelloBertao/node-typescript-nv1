@@ -1,0 +1,18 @@
+{
+  "name": "aula02",
+  "version": "1.0.0",
+  "description": "primeiro projeto com typescript",
+  "main": "index.js",
+  "scripts": {
+    "comp": "tsc --build --clean && tsc",
+    "exec": "node ./out/index.js",
+    "run": "npm run comp && cls && npm run exec",
+    "monitorar": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "bertao",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
